@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data():
-    file = 'C:/Users/HP/updated python project/env/aircrahesFullDataUpdated_2024.csv'
+    file  = 'env/aircrahesFullDataUpdated_2024.csv'
 
     df = pd.read_csv(file)
     return df
